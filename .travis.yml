@@ -4,5 +4,5 @@ python:
   - "nightly"
 install:
   - "pip install pytest"
-  - "pip install -r Pythontests/starter_code_REST_pt2/requirements.txt"
-script: python -m pytest Pythontests/starter_code_REST_pt2/tests/
+  - "pip install -r requirements.txt"
+script: python -m tests/
